@@ -1,0 +1,37 @@
+
+
+.read-the-docs {
+  color: #888;
+}
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh; /* Full viewport height */
+  background-color: #f0f0f0; /* Optional: Background color for better visualization */
+}
+
+.input-group {
+  margin-bottom: 20px; /* Space between input and button */
+}
+
+button {
+  padding: 10px 20px; /* Padding for the button */
+  background-color: #007bff; /* Button background color */
+  color: white; /* Button text color */
+  border: none;
+  border-radius: 5px; /* Rounded corners for the button */
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: 5px; /* Small space between label and input */
+}
